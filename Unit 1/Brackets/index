@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+</head>
+
+<body>
+<!-- Start of the header -->
+<header>
+<h1 id="top">Campus Cooking!</h1>    
+<h2>Easier Eating for Students</h2>
+</header> 
+    
+<!-- Start of the navigation -->
+<nav>
+<ul>
+    <li> <a href="index.html">Home</a></li>
+    <li> <a href="about_page2.html">About</a></li>
+    
+</ul>
+</nav>
+    
+<!-- Start of the main content -->
+<main>
+<title>Campus Cooking Home</title>
+    <blockquote>“If more of us valued food and cheer and song above hoarded gold, it would be a merrier world.”  ― J.R.R. Tolkien</blockquote>
+   <!-- Explain why cooking is harder in college -->
+<h2>Fast, Cheap, or Healthy</h2>
+<p>So, here’s the thing about meal preparation: <i>It’s really difficult to have it all.</i> There are a lot of factors that make for a great college meal, but it’s often very difficult to accommodate them all. So, sometimes you have to pick your battles. For example! Microwave Ramen noodles are relatively inexpensive and they can be bought in bulk at low prices, but no one would present Ramen noodles as the poster child for healthy food! That's why Campus Cooking tries to offer better meal solutions that specialize in fast, cheap, and/or healthy.
+</p>
+<h2>You Want Food that Doesn't Waste Your Time</h2>
+<p>Speed is always a really big factor when it comes to meal prep in college. You’re busy, I get it! You have classes, homework, work obligations and you still want to have time for leisure activities or seeing your friends! Often when us college kids get hungry, we need food fast. That’s why fast food companies seem to do so well around college towns! But, If you have a microwave oven, I’m sure that you are no stranger to quicker at home alternatives.
+</p>
+<h2>Budgeting Can Be Hard</h2>
+    <p>Eating can cost a lot of money, you probably learned that on your very first week out on your own! But, I think that you might be surprised by how far a little penny can be stretched when it comes to buying ingredients for making meals at home. Things like flour, rice, and other dried goods are very cost effect when calculating calories per cent spent. Look for recipes on this website with cost ratings to see how much you're spending on recipes!
+</p>
+  
+       <dl>
+    
+    <dt>Food is expensive, I get it!</dt>
+           
+           <dd>But, some foods are much cheaper than you make think, especailly if you buy in bulk!</dd>
+    <dt>Food fast, not fast food!</dt>
+           <dd>Believe it or not, there are ways to obtain calories quickly without going through a drive through!</dd>
+    <dt>It's easier than you think.</dt>
+           <dd>I know that resolving to eat healthier can be intimidating, but I'll walk you through step by step.</dd>
+           
+        </dl>
+    
+    <h2 id="tools">Here's some equipment that you might need along the way!</h2>
+    <ol>
+    <li>Mixing utensils (link to Amazon <a  href="https://www.amazon.com/s?k=mixing+utensils&crid=2KXRBE5QWGO9K&sprefix=mixing+ute%2Caps%2C209&ref=nb_sb_ss_i_1_10" target="_blank">here)</a></li>
+    <li>A set of knives(link to Amazon <a  href="https://www.amazon.com/s?k=cooking+knife+set&ref=nb_sb_noss_2" target="_blank">here)</a></li>
+    <li>A microwave</li>
+    <li>Measuring cups and spoons</li>
+    <li>Basic dishes and silverware</li>
+    </ol>
+<h2>Know What's Cool in College? Not Getting Scurvy!</h2>
+<p>Healthy.<b> Yikes.</b> <br> We all want to find ways to eat healthier. The fear of the “freshman fifteen” is real. Lots of kids will finally get out on their own and completely forget what fruits and veggies taste like. That's not good. You could scurvy and die. I’m going to try my best to show you that there are a lot of surprisingly good for you foods perfect for any dorm or college apartment dinner table!
+</p>
+     <em>Studies have shown that students who eat better</em>
+    <ul>
+    <li>Find it easier to learn.</li>
+    <li>Have higher grades.</li>
+    <li>Have faster information processing.</li>
+    <li>Have more energy through out the day.</li>
+    <li>And sleep better.</li>
+            </ul>
+    <a href="#top">Scroll to Top</a>
+</main>
+    
+<!-- Start of the footer -->
+<footer>
+Serena Draney &#8226; Copyright Feb. 4th 2020 &copy;
+    
+</footer>
+</body>
+</html>

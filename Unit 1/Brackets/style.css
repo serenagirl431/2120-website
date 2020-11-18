@@ -1,0 +1,27 @@
+/* css reset */
+body, h1, h2, h3, h4, h5, h6 {
+    padding: 0;
+    margin: 0;
+}
+
+/* box model fix here */
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; }
+
+body {
+    background-color: #54486e
+    text-color: white;
+    background-color: #54486e
+}
+
+header h1 {
+    color: red;
+}
+
+/* list styling*/
+.equipment {
+    list-style-type: circle
+}
+
+.eating {
+    list-style-type: square;
+}
