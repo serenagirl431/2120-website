@@ -1,0 +1,261 @@
+/* css reset */
+body, h1, h2, h3, h4, h5, h6 {
+    padding: 0;
+    margin: 0;
+}
+
+/* box model fix here */
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; }
+
+body {
+    background-color:  rgb(103, 81, 100); 
+    background-image: url(images/background.gif);
+    background-repeat: repeat-x;
+    background-color: #e7e3e7 ;/* rgb(103, 81, 100); */
+}
+#wrapper {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: rgb(161, 137, 157);
+    box-shadow: 5px 5px 10px #000;
+}
+/* phone nav rules*/
+@media only screen and (max-width: 600px) {
+    nav {
+        background-color: white;
+        padding: .5rem 2%;
+        background-color: #e7e3e7;
+    }
+    nav ul.nav {
+        list-style: none;
+        padding: 0;
+        text-decoration: none;
+    }
+     nav ul.nav li a {
+        border: solid 1px black;
+        display: block;
+        padding: .5rem 2%;
+        text-align: center;
+        margin: .5rem;
+        border-radius: 30px;
+        text-decoration: none;
+        background-color:  rgb(103, 81, 100);
+        color: #e7e3e7;
+    }
+    nav ul.nav li.active a {background-color: darkslategrey;}
+     nav ul.nav li a:hover {background-color:rebeccapurple;}
+    
+    
+    
+}
+
+/* desktop nav*/
+@media only screen and (min-width: 601px) {
+ nav {
+    background-color: lightgrey; 
+    border-bottom: solid grey 4px;
+}
+nav ul.nav li {
+    float: left;
+    list-style-type: none;
+    color: darkblue;
+}
+
+nav ul.nav li a{
+    display: block;
+    padding: 10px 20px;
+    border-left: solid black 1px;
+    text-decoration: none;
+}
+
+nav ul.nav li a:hover {
+    background-color:rebeccapurple;
+    color: darkgrey;
+}
+
+nav ul.nav li.active a {
+    background-color: azure;
+}
+
+}
+.keep-open {
+    clear: both;
+}
+
+header {
+    background-image: url(images/up-pan-logo-04.png);
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: 90px;
+    padding: 10px;
+    
+}
+
+header h1 {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 75px;
+    font-weight: bold;
+    line-height: 75px;
+    font-style: italic;
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    text-shadow: 1px 1px 4px #000;
+    
+}
+em {
+    padding: 10px;
+}
+a.top {
+    display: flex;
+    justify-content: center;
+}
+p, ol, ul, blockquote, dd, dt figcaption, footer, em {
+    font-family: 'Castoro', serif;
+}
+.easier {
+    display: flex;
+    justify-content: center;
+}
+
+h1, h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    padding: 10px;
+    color: white;
+}
+
+/* list styling*/
+.equipment li {
+    background-image:url(images/tiny-tiny-kitchen-spoon.png);
+    background-repeat: no-repeat;
+    list-style-type: none;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+dt {
+  font-weight: bold;
+}
+
+#why-eat {
+    border: 6px solid white;
+    padding: 0rem 2rem;
+    margin: 20px;
+    background-color: #ABC6D6;
+    max-width: 400px
+}
+.eating {
+    margin: 20px;
+}
+
+.eating li {
+     background-image:url(images/leaf.png);
+    background-repeat: no-repeat;
+    list-style-type: none;
+    padding-left: 30px;
+}
+
+p { 
+padding: 0px 20px
+}
+
+/*Image Styling*/
+figure.food-photos {
+    margin: 0 0 0 2%;
+    padding-bottom: .5em;
+    float: right;
+    width: 30%;
+    border: solid black 1px;
+    background-color: white;
+}
+figure.food-photos img{
+    width: 100%;
+    box-shadow: 2px 2px 10px #000;
+}
+
+figure.food-photos figcaption {
+    text-align: center;
+}
+
+main {
+    max-width: 900px;
+    margin: 0 auto;
+}
+/*GALLERY STYLING*/
+
+div.wholeGallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+figure.gallery {
+    border: solid 1px grey;
+    margin: 20px 10px;
+    width: 200px;
+    padding: .5em;
+    border: solid black 1px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: white;
+   
+}
+figure.gallery img{
+    width: 100%; 
+    margin: 10px 10px;
+}
+figure.gallery figcaption{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+footer {
+   text-align:center;
+    
+}   
+
+.form-page {
+    background-color: white;
+}
+.form-welcome {
+    color: rebeccapurple;
+}
+form.news-form fieldset {
+    background-color: azure;
+    border: 2px solid rebeccapurple;
+    border-radius: 1rem;
+    padding: 1rem 2%;
+    margin: 1rem 0rem;
+}
+form.news-form legend {
+    font-size: 2rem;
+    color: rebeccapurple;
+    
+}
+form.news-form label{
+    display: block;
+}
+form.news-form span {
+    display: block;
+    padding-top: 1rem;
+    color: darkslateblue;
+    
+}
+form.news-form .inputs {
+    background-color: beige;
+    color: lightgray;
+    border: 2px solid darkslateblue;
+    border-radius: 1rem;
+    width: 90%
+}
+form.news-form .subButton {
+    border-radius: 1rem;
+    color: rebeccapurple;
+    background-color: aliceblue;
+    border: solid 1px black;
+    padding: 1rem 3rem;
+    margin: 1rem 0rem;
+}
+div .cool {
+    background: linear-gradient(to right, #ccc, #B6B4B9); 
+}

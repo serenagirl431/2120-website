@@ -1,0 +1,87 @@
+/* css reset */
+body, h1, h2, h3, h4, h5, h6 {
+    padding: 0;
+    margin: 0;
+}
+
+/* box model fix here */
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; }
+
+body {
+    background-color: rgb(103, 81, 100);
+}
+nav {
+    background-color: lightgrey; 
+    border-bottom: solid grey 4px;
+}
+nav ul.nav li {
+    float: left;
+    list-style-type: none;
+    color: darkblue;
+}
+
+nav ul.nav li a{
+    display: block;
+    padding: 10px 20px;
+    border-left: solid black 1px;
+    text-decoration: none;
+}
+
+nav ul.nav li a:hover {
+    background-color:rebeccapurple;
+    color: darkgrey;
+}
+
+nav ul.nav li.active a {
+    background-color: azure;
+}
+
+.keep-open {
+    clear: both;
+}
+
+
+
+header h1 {
+    font-family: 'Roboto', sans-serif;
+    color: #E9F5FB;
+    font-size: 75px;
+    font-weight: bold;
+    line-height: 75px;
+    font-style: italic;
+    
+}
+
+h1, h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    margin: 10px;
+    color: white;
+}
+
+/* list styling*/
+.equipment {
+    list-style-type: upper-roman;
+    padding: 2rem;
+    margin: 20px;
+}
+dt {
+  font-weight: bold;
+}
+
+#why-eat {
+    border: 6px solid white;
+    padding: 0rem 2rem;
+    margin: 20px;
+    background-color: #ABC6D6;
+    max-width: 400px
+}
+
+.eating {
+    list-style-type: square;
+}
+
+p { 
+padding: 0px 20px
+}
+

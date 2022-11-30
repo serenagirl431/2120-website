@@ -3,11 +3,15 @@
 <head>
 <meta charset="UTF-8">
 <link rel="stylesheet" href="style.css"/>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+<!-- GitHub repository url https://github.com/serenagirl431/2120-website.git -->
 <title>Home</title>  
 </head>
 
 <body>
 <!-- Start of the header -->
+    
 <header>
 <h1 id="top">Campus Cooking!</h1>
 <h2>Easier Eating for Students</h2>
@@ -15,15 +19,21 @@
     
 <!-- Start of the navigation -->
 <nav>
-<ul>
-    <li> <a href="index.html">Home</a></li>
-    <li> <a href="about_page2.html">About</a></li>
+<div class="nav-div">
+<ul class="nav">
+    <li class="active"> <a href="index.html">Home</a></li>
+    <li> <a href="about.html">About</a></li>
+    <li> <a href="gallery.html">Gallery</a></li>
     
 </ul>
+<div class="keep-open"></div>
+</div>
 </nav>
     
 <!-- Start of the main content -->
 <main>
+        <figure class="food-photos"><img src="images/baked-potato.jpg" alt="Baked potato loaded with sour cream and onions.">
+        <figcaption>Loaded Baked Potato</figcaption></figure>
     <h1>Home</h1>
     <blockquote>“If more of us valued food and cheer and song above hoarded gold, it would be a merrier world.”  ― J.R.R. Tolkien</blockquote>
    <!-- Explain why cooking is harder in college -->
@@ -36,7 +46,7 @@
 <h2>Budgeting Can Be Hard</h2>
     <p>Eating can cost a lot of money, you probably learned that on your very first week out on your own! But, I think that you might be surprised by how far a little penny can be stretched when it comes to buying ingredients for making meals at home. Things like flour, rice, and other dried goods are very cost effect when calculating calories per cent spent. Look for recipes on this website with cost ratings to see how much you're spending on recipes!
 </p>
-  
+  <div id="why-eat">
        <dl>
     
     <dt>Food is expensive, I get it!</dt>
@@ -48,6 +58,7 @@
            <dd>I know that resolving to eat healthier can be intimidating, but I'll walk you through step by step.</dd>
            
         </dl>
+      </div>
     
     <h2 id="tools">Here's some equipment that you might need along the way!</h2>
     <ol class="equipment">
@@ -57,10 +68,9 @@
     <li>Measuring cups and spoons</li>
     <li>Basic dishes and silverware</li>
     </ol>
-<div class="cool">
 <h2>Know What's Cool in College? Not Getting Scurvy!</h2>
 <p>Healthy.<b> Yikes.</b> <br> We all want to find ways to eat healthier. The fear of the “freshman fifteen” is real. Lots of kids will finally get out on their own and completely forget what fruits and veggies taste like. That's not good. You could scurvy and die. I’m going to try my best to show you that there are a lot of surprisingly good for you foods perfect for any dorm or college apartment dinner table!
-</p></div>
+</p>
      <em>Studies have shown that students who eat better</em>
     <ul class="eating">
     <li>Find it easier to learn.</li>
@@ -74,7 +84,7 @@
     
 <!-- Start of the footer -->
 <footer>
-Serena Draney &#8226; Copyright Feb. 4th 2020 &copy;
+Serena Draney &#8226; Copyright 2020 &copy;
     
 </footer>
 </body>

@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css"/>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Castoro&display=swap" rel="stylesheet">
+<title>Form</title>
+</head>
+
+<body>
+      <div id="wrapper">  
+
+<!-- Start of the header -->
+<header>
+<h1 id="top"> Seven Sisters Tours</h1>
+<h2 class="easier">Travel Agency</h2>  
+</header> 
+    
+<!-- Start of the navigation -->
+<nav>
+<ul class="nav">
+    <li> <a href="index.html">Home</a></li>
+    <li> <a href="gallery.html">Gallery</a></li>
+    <li class="active"> <a href="form.html">Form</a></li>
+     <li> <a href="media.html">Media</a></li>
+    <li> <a href="packages.html">Packages</a></li>
+</ul>
+<div class="keep-open"></div>
+</nav>
+     
+<!-- Start of the main content -->
+<main class="form-page">
+<h1 class="form-welcome">Sign up for our newsletter!</h1>
+    <form action="thanks.html" method="get" enctype="multipart/form-data" name="newsForm" class="news-form">
+        <fieldset>
+            <legend>Your Name</legend>
+        <label><span>First Name:</span><input name="first" value="" type="text" placeholder="First Name" required class="inputs"></label>
+            <label><span>Last Name:</span><input name="last" value="" type="text" placeholder="Last Name" class="inputs"></label> <br>
+        </fieldset>
+        <fieldset>
+            <legend>Contact Information</legend>
+        <label><span>Text:</span><input  name="text" value="" type="tel" required pattern="[0-9]{10}" placeholder="0000000000" class="inputs"></label>
+        <label><span>Phone:</span><input name="tel" value="" type="tel" placeholder="0000000000" class="inputs"></label>
+            <label><span>Email:</span><input name="email" value="" type="text" placeholder="YourEmail@email.com" class="inputs"></label>
+        </fieldset>
+         <fieldset>
+            <legend>What should we send you?</legend>
+        <h4>What type of information would you like to recieve?</h4>
+        <label><input type="radio" name="info" value="recipes" >Just my travel agenda, please. </label><br>
+        <label><input type="radio" name="info" value="News-and-recipes" required>Agenda and deals, please! </label><br>
+        <label><input type="radio" name="info" value="don't-send" required>Please don't contact me.</label><br>
+        <h4>What can we do to make your trip more enjoyable?</h4>
+        
+        <label>Please leave us some thoughts<textarea name="comments" ></textarea></label><br>
+        </fieldset>
+        <fieldset>
+        <label>How did you hear about Seven Sisters?</label>
+        <select name="source"> 
+            <option value="friend">From a friend</option>
+            <option value="Assignment">Because I'm the one grading this??</option>
+            <option value="online">Heard about it online</option>
+            <option value="god">I know all things, puny mortal!</option>
+        </select>
+        </fieldset>
+        <input type="submit" name="submit" value="Sign up!" class="subButton">
+        
+    </form>
+</main> 
+    
+<!-- Start of the footer --> 
+<footer>
+<p>Serena Draney &#8226; Copyright 2020 &copy; </p>
+    
+</footer>
+</div>
+</body>
+</html>
